@@ -1,0 +1,125 @@
+/* .features-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0b004e;
+}
+
+.feature-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #555;
+} */
+
+.features-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color:  #0b004e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #030205;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.features-section {
+    margin-bottom: 30px;
+}
+
+.features-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f3f6f8;
+    margin-bottom: 15px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #270155;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #090404;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0b004e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    border: 1px solid #0b004e;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #2b0248;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.data-table tbody tr:hover {
+    background-color:#0b004e;
+}
